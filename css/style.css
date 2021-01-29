@@ -1,0 +1,141 @@
+body {
+    font-family: "Lato", sans-serif;
+    background-image: url("../images/solarclipse2.jpg");
+	background-color:#154d70;
+    background-repeat: no-repeat, repeat;
+    background-position: left top;
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+.blackglass
+{
+		background:rgba(0,0,0,.4) !important;
+}
+
+.whiteglass
+{
+		background:rgba(255, 255, 255,.7) !important;
+}
+
+
+.brownglass
+{
+	background:rgba(196, 124, 22,.4) !important;
+}
+
+fieldset
+{
+	margin:40px 0 20px;
+	padding: 20px !Important;
+
+}
+
+fieldset table, fieldset label
+{
+	color:white !Important;
+}
+
+.bold
+{
+	font-weight:bold !Important;
+}
+
+.table th
+{
+	border-top:none !important;
+	background:rgb(0,0,0,.3) !Important;
+}
+
+.table tr:nth-child(even) {background:rgb(0,0,0,.1) !Important;}
+
+fieldset > legend
+{
+	padding:10px 20px !important;
+	font-size:20px;
+	margin:20px auto;
+	width: auto;
+	color:#fff;
+	background:rgba(227,128,22,.1);
+	-webkit-box-shadow: 10px 10px 0px 0px rgba(227,128,22,.1);
+	-moz-box-shadow: 10px 10px 0px 0px rgba(227,128,22,.1);
+	box-shadow: 10px 10px 0px 0px rgba(227,128,22,.1);
+
+}
+
+
+fieldset form
+{
+	margin:10px auto;
+	display:block;
+}
+
+
+.mainmenu
+{
+	background:rgb(0,0,0,.9);
+}
+
+.mainmenu a
+{
+	color:#fff;
+}
+
+.mainmenu a:hover
+{
+	color:yellow;
+}
+
+.shadow
+{
+	-webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.5);
+}
+
+.nav-item
+{
+	margin-left:20px !important;
+}
+.nav-item i
+{
+	margin-right:10px !important;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+
+  text-decoration: none !important;
+  background:none !important;
+}
+
+.dropdown-menu
+{
+	background:none;
+	background:rgb(0,0,0,.5);
+	border:1px solid #333 !important;
+}
+
+.dropdown-divider 
+{
+    border-top: 1px solid #333 !important;
+}
+
+.note-dropdown-menu
+{
+	background:#efefef;
+	border:1px solid #999 !important;
+}
+
+.note-dropdown-menu li:hover, .note-dropdown-menu li:focus {
+
+  background:white !important;
+}
+
+.note-dropdown-menu a
+{
+	color:#333;
+}
+.note-dropdown-menu a:hover
+{
+  text-decoration: none !important;
+}

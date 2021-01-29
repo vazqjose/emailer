@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body	{
+	background-color:#122338;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+input	{
+	-moz-box-shadow: 0px 0px 68px 20px #069;
+	-webkit-box-shadow: 0px 0px 68px 20px #069;
+	
+	-webkit-border-radius:15px;
+	-moz-border-radius:15px;
+	border-radius:15px;
+}
+
+#holder	{
+	margin:200px auto;
+
+	width:700px;
+	
+	text-align:center;
+	
+	color: rgb(107, 255, 145);
+}
+
+#mensajediv	{
+	text-align:center;
+	margin:auto;
+	color:#fff;
+	font-size:28px;
+	margin-top:20px;
+}
+
+.mytext	{
+	
+	width:400px;
+	height:25px;
+	padding:10px;
+	font-size:18px;
+	color:#333;
+	
+	margin:0 20px 0 0;
+	
+	border:2px #ccc solid;
+}
+
+h1	{
+	color:#FFC;
+	font-weight:normal;
+	font-size:44px;
+}
+
+.mybutton {
+
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #069), color-stop(1, #122338) );
+	background:-moz-linear-gradient( center top, #069 5%, #122338 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#069', endColorstr='#122338');
+	background-color:#069;
+	border:2px solid #09C;
+	display:inline-block;
+	color:white;
+	
+
+	font-size:22px;
+	font-weight:bold;
+	padding:10px 43px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #000;
+	
+
+}
+
+.mybutton:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #069), color-stop(1, #0065a8) );
+	background:-moz-linear-gradient( center top, #069 5%, #0065a8 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#069', endColorstr='#0065a8');
+	background-color:#152845;
+}
+
+.mybutton:active {
+	position:relative;
+	top:1px;
+}
